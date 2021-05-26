@@ -1,0 +1,489 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+head{
+    display: none;
+}
+body{
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+/* Header Start */
+    /*Start top  */
+header{
+    font-size: 12px;
+    font-family:'fordngbs-antenna-cond-medium','fordngbs-antenna-cond-regular','fordngbs-antenna-re',arial,helvetica,sans-serif;
+    letter-spacing: .5px;
+    font-weight:600;
+    
+    overflow: hidden;
+  
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+}
+header .top{
+    background-color: #f7f7f7;
+    width: 90%;
+    margin: auto;
+}
+#contentTop{
+    padding: 0px 70px;
+}
+header a{
+    color: #102b4e;
+    
+}
+
+header .nav-item .logoMustang{
+    width: 52px;
+    position: relative;
+}
+header .nav-item .logoBronco
+{
+    width: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+header .Bronco a{
+    padding: 0px;
+}
+header .Bronco a::before,.Cer a::before{
+    content: "";
+    width: 1px;
+    height: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #d6d5d5;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+header .Cer span{
+    margin-left: 10px;
+}
+header .navbar-text a{
+    display: flex;
+    text-decoration: none;
+}
+header .navbar-text i{
+    font-size: 20px;
+}
+header .navbar-text p{
+    color: #2861a4;
+    margin-left: 5px;
+}
+header .navbar-expand-lg{
+    padding-bottom:0px ;
+}
+    /* hover */
+.logoMustangHover{
+    opacity: 0;
+    width: 52px;
+    position: absolute;
+    left: 93.5px;
+    transition: all 0.3s;
+}
+header .Mustang .nav-link:hover .logoMustangHover {
+    opacity: 1;
+   
+}
+.logoBroncoHover{
+    opacity: 0;
+    width: 30px;
+    position: absolute;
+    left: 250px;;
+    transition: all 0.3s;
+    
+}
+ header .Bronco .nav-link:hover .logoBroncoHover {
+    opacity: 1;
+   
+} 
+    /* End hover  */
+    /* End Top  */
+
+    /* Start bottom */
+header .bottom{
+    background-color: #fff !important;
+    width: 90%;
+    margin: auto;
+}
+header .bottom .navbar-brand img{
+    width: 120px;
+    height: 71px;
+    padding: 0;
+    margin: 6px 0 0 0;
+}
+header .bottom .navbar-nav img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+header .bottom .navbar-nav .nav-item-account{
+    display: flex;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#0276b3;
+}
+    /* End bottom  */
+
+/* End Header  */    
+
+/* Banner Start*/
+.banner{
+    background-image: url(../images/cq5dam.web.1440.1440.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+.content_Banner{
+    font-family: 'fordngbs-antenna-light',arial,helvetica,sans-serif;
+    margin: 0 auto;
+    color:#fff;
+    height: 500px;
+    width: 80%;
+    position: absolute;
+    top:50px;
+    left: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.content_Banner .text_Banner h2{
+    font-size: 45px;
+} 
+.content_Banner .text_Banner p {
+    letter-spacing: 1px;
+    color:white;
+}
+.content_Banner .seeThe{
+    display: flex;
+    margin-top: 50px;
+    align-items: baseline;
+    transition: all 0.5s;
+    
+} 
+.content_Banner .seeThe a{
+    text-decoration: none;
+}
+.content_Banner .seeThe button{
+    border-radius: 50%;
+    height: 28px;
+    background-color:transparent;
+    border:2px solid white;
+    color: white;
+    margin-left:10px;
+    padding: 1px 7px;
+    
+}
+.content_Banner .seeThe i{
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+    /* hover  */
+.content_Banner:hover button{
+    background-color: white;
+    
+}
+.content_Banner:hover p {
+    color:#0276b3 ;
+}
+
+.seeThe:hover button{
+    background-color: #102b4e;
+    border: 1px solid #102b4e;
+}
+.seeThe:hover h6{
+    color:#102b4e ;
+}
+.seeThe:hover p {
+    color:#5da7cf ;
+}
+/* End Banner */
+
+
+/* Pick Up Start  */
+.pickUp{
+    font-family: 'fordngbs-antenna-light',arial,helvetica,sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.pickUp .content_pickUp h3{
+    font-size: 42px;
+}
+.pickUp .card_pickUp,.pickUp .card_pickUp img{
+    width: 300px;
+    
+    margin: auto;
+}
+.pickUp .card_pickUp a{
+    text-decoration: none;
+}
+.pickUp .card_pickUp h5{
+    color:#0276b3;
+}
+.pickUp .card_pickUp p{
+    color:#6d6d6d;
+}
+.pickUp .card_pickUp .btn-primary{
+    border-radius: 0px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.pickUp .card_pickUp{
+    font-size: 20px;
+
+}
+    /* hover  */
+.pickUp .card_pickUp .btn-primary:hover{
+    background-color: #fff;
+    color:#102b4e;
+    border: 1px solid #102b4e;
+}
+.pickUp .card_pickUp h6:hover,.disclosures h6:hover{
+    color:#102b4e;
+}
+/* End Pick Up  */
+
+/* California Start  */
+.california{
+    width: 90%;
+    margin: auto;
+}
+.disclosures{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.disclosures h6{
+    font-weight: 400;
+    
+}
+.disclosures a{
+    text-decoration: none;
+}
+.text_california h2{
+    font-size: 45px;
+}
+.text_california{
+    text-align: center;
+    font-family: 'fordngbs-antenna-light',arial,helvetica,sans-serif;
+    background-color: #092a46;
+    color: white;
+    padding: 20px;
+}
+.text_california .btn-primary{
+    border-radius: 0px;
+    height: 50px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+.text_california u{
+    color: #0276b3;
+}
+.search{
+    background-color: #333333;
+    padding: 30px 100px;
+    padding-top: 35px;
+}
+.search a{
+    margin-right: 15px;
+    color: #a7a7a7;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.search .active{
+    color: white;
+}
+.search span{
+    padding: 0px;
+    color: white;
+    font-size: 24px;
+}
+.search span i{
+    margin-right: 10px;
+}
+.infor{
+    background-color: #242424;
+    padding-top: 25px;
+    padding-bottom: 90px;
+}
+.infor .row{
+    margin-right: 0px;
+    margin-left: 40px;
+}
+.infor .row-row a{
+    text-decoration: none;
+    color:#a7a7a7;
+    font-size: 17px;
+
+}
+.infor .row-row ul li{
+    list-style: none;
+}
+.infor .row-row .active{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.infor .row-row .active a{
+    color: white;
+}
+.infor .row-row  li{
+    margin-top: 10px;
+}
+.contact{
+    background-color: #102b4e;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .icon i{
+    z-index: 10;
+    background-color: #2096cd;
+    color:white;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 1px solid #2096cd;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    
+}
+.contact .email,.contact .write{
+    display: flex;
+}
+.contact .email p,.contact .write p{
+    color: #37a9e8;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .right{
+    display: flex;
+    
+}
+.contact .write{
+    margin-left: 30px;
+}
+.contact .left{
+    color:white;
+    display: flex;
+    align-items: baseline;
+}
+.contact .left p{
+    font-size: 12px
+}
+.contact .left .logo{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #3c5b99;
+    margin-right: 10px;
+}
+.contact .left .logo i{
+    line-height: 35px;
+    
+}
+.contact .left .box-logo{
+    display: flex;
+    margin-left: 50px;
+}
+.contact .left a{
+    color:white;
+}
+.contact .tw{
+    background-color:#1da2f3 !important;
+}
+.contact .yb{
+    background-color: red !important;
+}
+.contact .ins{
+    background-color: #dc2c75 !important;
+}
+    /* hover  */
+.text_california .btn-primary:hover{
+    background-color: #fff;
+    color:#102b4e;
+    border: 1px solid #102b4e;
+}
+.search a:hover{
+    color: white;
+}
+.infor .row-row  a:hover{
+    color:white;
+}
+/* End California  */
+
+/* Change  */
+footer{
+    width: 90%;
+    margin: auto;
+    background-color: #f7f7f7;
+    height: 200px;
+    margin-bottom: 50px;
+    padding: 50px 100px;
+}
+footer .change{
+    display: flex;
+    justify-content: space-between;
+}
+footer .change img{
+    width: 100px;
+}
+footer .change .text .link_change{
+    display: flex;
+    color: #0276b3;
+    text-decoration: none;
+}
+
+
+footer .change .text i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+footer .copyRight{
+    color:#555;
+    font-size: 15px;
+}
+
+footer .end .link_end{
+    display: flex;
+    color:#555;
+    text-decoration: none;
+}
+footer .end .link_end p{
+    margin-right: 20px;
+    font-size: 14px;
+}
+/* hover  */
+footer .change .text a:hover{
+    color:black;
+}
