@@ -14,19 +14,22 @@ body{
 
 /* Header Start */
     /*Start top  */
-header{
+header {
     font-size: 12px;
     font-family:'fordngbs-antenna-cond-medium','fordngbs-antenna-cond-regular','fordngbs-antenna-re',arial,helvetica,sans-serif;
     letter-spacing: .5px;
     font-weight:600;
     
+    
+}
+header .fixed{
     overflow: hidden;
   
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin: auto;  
 }
 header .top{
     background-color: #f7f7f7;
@@ -106,10 +109,7 @@ header .Mustang .nav-link:hover .logoMustangHover {
     opacity: 1;
    
 } 
-    /* End hover  */
-    /* End Top  */
-
-    /* Start bottom */
+    
 header .bottom{
     background-color: #fff !important;
     width: 90%;
@@ -269,6 +269,8 @@ header .bottom .navbar-nav .nav-item-account{
 }
 /* End Pick Up  */
 
+/* <!--!!!!!!! Thêm Let Us Sweenten the Deal!!!!!!!!!!!!!!!!!!!  --> */
+
 /* California Start  */
 .california{
     width: 90%;
@@ -354,6 +356,12 @@ header .bottom .navbar-nav .nav-item-account{
 }
 .infor .row-row  li{
     margin-top: 10px;
+}
+.infor .five{
+    padding-left: 0px;
+}
+.infor .five ul{
+    padding-left: 0px;
 }
 .contact{
     background-color: #102b4e;
@@ -472,6 +480,7 @@ footer .change .text i{
 footer .copyRight{
     color:#555;
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 footer .end .link_end{
@@ -486,4 +495,45 @@ footer .end .link_end p{
 /* hover  */
 footer .change .text a:hover{
     color:black;
+}
+
+
+/* BACK TO TOP */
+.backToTop i {
+    color:#fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    background-color: rgb(0, 0, 0, 0.6);
+    /* sét vị trí nút back to top */
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.backToTop {
+    visibility: hidden;
+}
+
+.cd-top--is-visible {
+    /* back-to-top button visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top--fade-out {
+    /* reduce button opacity if user keeps scrolling */
+    opacity: .5;
+}
+
+/* ANIMATION */
+@keyframes arrowDown {
+
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
 }
