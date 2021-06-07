@@ -588,7 +588,7 @@ header .bottom .navbar-nav .nav-item-account{
 
 .infor .row{
     margin-right: 0px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .infor .row-row a{
@@ -602,24 +602,36 @@ header .bottom .navbar-nav .nav-item-account{
 }
 
 .infor .row-row .active{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .infor .row-row .active a{
     color: white;
+    
+}
+.infor .row-row .nav-link{
+    padding: 0px 15px;
+    width: 200px;
 }
 
 .infor .row-row  li{
     margin-top: 10px;
 }
-
-.infor .five{
-    padding-left: 0px;
+.infor .three{
+    padding-left: 40px;
 }
-
-.infor .five ul{
-    padding-left: 0px;
+.infor .four{
+    padding-left: 50px;
+}
+.infor .five{
+    padding-left: 50px;
+}
+.infor .row-row .btn-infor{
+    width: 200px;
+} 
+.infor .span_three{
+    display: flex;
 }
 
 .contact{
@@ -834,6 +846,7 @@ footer .change .text a:hover{
     footer {
         padding: 25px 45px 50px;
     }
+    
 }
   
 @media screen and (max-width: 991px) {
@@ -876,8 +889,112 @@ footer .change .text a:hover{
       margin: 1rem 0;
       text-align: center;
     }
+    /* .infor .row-row span{
+        color:white;
+    }
+    .infor .row-row a{
+        color:#a7a7a7 ;
+    }
+    .infor .row-row .active a{
+        display: none;
+    }
+    .infor .span_three {
+        display: flex;
+        flex-direction: column;
+    }
+    .infor .row-row .btn-infor .fa-chevron-down{
+        color: white;
+        font-size: 25px;
+    }
+    .infor .row{
+        position: relative;
+    }
+    .infor .row .span_three{
+        position: absolute;
+        top:0px;
+        right: 80px;
+    }
+    .infor .row .span_three .box_infor{
+        padding-bottom: 20px;
+        padding-left:0px;
+        border-bottom: 1px solid #a7a7a7;
+        padding-top: 20px;
+    }
+    .infor .row .span_three .three{
+        padding-top: 0px;
+    }
+    .infor .span_three .row-row .btn-infor {
+        position: relative;
+        
+    } 
+    .infor .span_three .row-row .btn-infor .fa-chevron-down{
+        position: absolute;
+        left: 90%;  
+    } 
+    .infor .two .row-row{
+        padding-left: 0px;
+    }
+    .infor .two .row-row .btn-infor .fa-chevron-down{
+        display: none;
+    }
+    .infor .two .collapse:not(.show){
+        display: block;
+    } */
+    
 }
-  
+@media (min-width: 766px) and (max-width:991px){
+    .infor .row-row span{
+        color:white;
+    }
+    .infor .row-row a{
+        color:#a7a7a7 ;
+    }
+    .infor .row-row .active a{
+        display: none;
+    }
+    .infor .span_three {
+        display: flex;
+        flex-direction: column;
+    }
+    .infor .row-row .btn-infor .fa-chevron-down{
+        color: white;
+        font-size: 25px;
+    }
+    .infor .row{
+        position: relative;
+    }
+    .infor .row .span_three{
+        position: absolute;
+        top:0px;
+        right: 80px;
+    }
+    .infor .row .span_three .box_infor{
+        padding-bottom: 20px;
+        padding-left:0px;
+        border-bottom: 1px solid #a7a7a7;
+        padding-top: 20px;
+    }
+    .infor .row .span_three .three{
+        padding-top: 0px;
+    }
+    .infor .span_three .row-row .btn-infor {
+        position: relative;
+        
+    } 
+    .infor .span_three .row-row .btn-infor .fa-chevron-down{
+        position: absolute;
+        left: 90%;  
+    } 
+    .infor .two .row-row{
+        padding-left: 0px;
+    }
+    .infor .two .row-row .btn-infor .fa-chevron-down{
+        display: none;
+    }
+    .infor .two .collapse:not(.show){
+        display: block;
+    }
+}
 @media screen and (max-width: 765px) {
     .content_Banner {
         display: flex;
@@ -930,9 +1047,9 @@ footer .change .text a:hover{
         padding: 25px;
     }
 
-    .search .row {
+    /* .search .row {
         margin: 0;
-    }
+    } */
     
     #gallery .desc h2,
     #gallery .airbag_container h2,
@@ -942,6 +1059,58 @@ footer .change .text a:hover{
 
     .desc p {
         display: none;
+    }
+    .infor .row {
+       
+        display: inline;
+        
+    }
+    .infor .three,.infor .four,.infor .five{
+        padding-left: 0px;
+    }
+    .infor .one .row-row{
+        padding-left: 15px;
+    }
+    
+    .infor .row-row span{
+        color:white;
+    }
+    .infor .row-row a{
+        color:#a7a7a7 ;
+    }
+    .infor .row-row .active a{
+        display: none;
+    }
+    .infor .row .box_infor{
+        padding: 30px 0px;
+        border-top: 1px solid #a7a7a7;
+    }
+    .infor .row .one{
+        border: none;
+    }
+    .infor{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .infor .row-row .btn-infor{
+        width: 1000px;
+    } 
+
+    .infor .row-row .btn-infor {
+        position: relative;
+        
+    } 
+    .infor .row-row .btn-infor .fa-chevron-down{
+        position: absolute;
+        left: 30%;  
+    } 
+    .infor .row-row .btn-infor .fa-chevron-down{
+        color: white;
+        font-size: 25px;
+    }
+    .infor .span_three {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
