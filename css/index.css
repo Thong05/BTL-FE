@@ -583,7 +583,7 @@ header .bottom .navbar-nav .nav-item-account{
 .infor{
     background-color: #242424;
     padding-top: 25px;
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
 }
 
 .infor .row{
@@ -627,8 +627,9 @@ header .bottom .navbar-nav .nav-item-account{
 .infor .five{
     padding-left: 50px;
 }
-.infor .row-row .btn-infor{
-    width: 200px;
+.infor .row-row .btn-infor {
+    /* width: 200px; */
+    display: block;
 } 
 .infor .span_three{
     display: flex;
@@ -979,11 +980,11 @@ footer .change .text a:hover{
     }
     .infor .span_three .row-row .btn-infor {
         position: relative;
-        
+        width: 100%;
     } 
     .infor .span_three .row-row .btn-infor .fa-chevron-down{
         position: absolute;
-        left: 90%;  
+        /* left: 90%;   */
     } 
     .infor .two .row-row{
         padding-left: 0px;
@@ -995,6 +996,7 @@ footer .change .text a:hover{
         display: block;
     }
 }
+
 @media screen and (max-width: 765px) {
     .content_Banner {
         display: flex;
@@ -1093,7 +1095,8 @@ footer .change .text a:hover{
         padding-bottom: 0px;
     }
     .infor .row-row .btn-infor{
-        width: 1000px;
+        /* width: 1000px; */
+        width: 100%;
     } 
 
     .infor .row-row .btn-infor {
@@ -1108,10 +1111,10 @@ footer .change .text a:hover{
         color: white;
         font-size: 25px;
     }
-    .infor .span_three {
+    /* .infor .span_three {
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
 }
 
   
