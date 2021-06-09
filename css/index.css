@@ -516,9 +516,33 @@ header .bottom .navbar-nav .nav-item-account{
     width: 100%;
 }
 
-.disclosures{
+/* .disclosures{
     text-align: center;
     margin-bottom: 30px;
+} */
+
+.disBtnContainer {
+    margin: 0;
+    color: #0276b3;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.disclosures_text {
+    padding: 40px 95px;
+    max-height: 240px;
+    overflow-y: scroll;
+    transition: all .2s ease;
+    background: #f7f7f7;
+    color: #333;
+    font-size: 12px;
+}
+
+.disclosures_text ul {
+    list-style: none;
 }
 
 .disclosures h6{
