@@ -966,6 +966,11 @@ footer .change .text a:hover{
         display: block;
     } */
     
+    .infor .row-row .btn-infor button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 @media (min-width: 766px) and (max-width:991px){
     .infor .row-row span{
@@ -1006,10 +1011,10 @@ footer .change .text a:hover{
         position: relative;
         width: 100%;
     } 
-    .infor .span_three .row-row .btn-infor .fa-chevron-down{
+    /* .infor .span_three .row-row .btn-infor .fa-chevron-down{
         position: absolute;
-        /* left: 90%;   */
-    } 
+        left: 90%;  
+    }  */
     .infor .two .row-row{
         padding-left: 0px;
     }
@@ -1127,10 +1132,10 @@ footer .change .text a:hover{
         position: relative;
         
     } 
-    .infor .row-row .btn-infor .fa-chevron-down{
+    /* .infor .row-row .btn-infor .fa-chevron-down{
         position: absolute;
         left: 30%;  
-    } 
+    }  */
     .infor .row-row .btn-infor .fa-chevron-down{
         color: white;
         font-size: 25px;
