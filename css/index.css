@@ -61,6 +61,15 @@ header .top{
     padding: 0px 95px;
 }
 
+#bottomContent .navbar-toggler {
+    border: none;
+}
+
+#bottomContent .navbar-toggler p {
+    font-size: 10px;
+    margin: 0;
+}
+
 header a{
     color: #102b4e;
 }
@@ -99,6 +108,10 @@ header .Bronco a::before{
 header .Cer span{
     margin-left: 10px;
 }
+
+/* Nav-tabs Begin*/
+
+/* Nav-tabs End*/
 
 header .navbar-text a{
     display: flex;
@@ -883,10 +896,23 @@ footer .change .text a:hover{
         padding: 0 30px;
     }
 
+    #myTab {
+        font-size: 14px;
+    }
+
     .content_Banner {
         top: 0;
         left: 0;
         margin: 20px 0 0 20px;
+    }
+
+    .navbar-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .banner {
+        margin-top: 88px;
     }
     
     .text_Banner {
@@ -965,7 +991,7 @@ footer .change .text a:hover{
     .infor .two .collapse:not(.show){
         display: block;
     } */
-    
+
     .infor .row-row .btn-infor button {
         width: 100%;
         display: flex;

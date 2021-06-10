@@ -75,27 +75,31 @@
               <a class="navbar-brand" href="#">
                   <img src="./images/Blue_Oval_448x252.jpg" alt="">
               </a>
+
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentBottom" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+                <p>Menu</p>
               </button>
+
               <div class="collapse navbar-collapse" id="contentBottom">
-                <ul class="mr-auto navbar-nav">
-                  <li class="nav-item ">
-                    <a class="nav-link" href="#">SUVS & CROSSOVERS <span class="sr-only">(current)</span></a>
+                <ul class="mr-auto navbar-nav" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="suvs-tab" data-toggle="tab" href="#suvs" role="tab" aria-controls="suvs" aria-selected="false">SUVS & CROSSOVERS <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">TRUCKS & VANS</a>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" href="#" id="vans-tab" data-toggle="tab" href="#vans" role="tab" aria-controls="vans" aria-selected="false">TRUCKS & VANS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">ELECTRIFIED</a>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" href="#" id="elec-tab" data-toggle="tab" href="#elec" role="tab" aria-controls="elec" aria-selected="false">ELECTRIFIED</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">CARS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">ELECTRIFIED</a>
-                    </li>
+                  <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#" id="cars-tab" data-toggle="tab" href="#cars" role="tab" aria-controls="cars" aria-selected="false">CARS</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" href="#" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="false">ALL VEHICLES</a>
+                  </li>
                 </ul>
+
                 <span class="navbar-text">
                   <ul class="mr-auto navbar-nav">
                       <li class="nav-item-account">
@@ -354,6 +358,7 @@
         <p>Exercise your rights under the California Consumer Privacy Act <a href=""><u>here</u></a>.</p>
         <a href="#" class="btn btn-primary">Do Not Sell My Personal Information</a>
       </div>
+
       <div class="search">
         <nav class=" navbar-expand-lg row">
           <!-- navbar -->
@@ -375,6 +380,7 @@
           </a>
         </nav>
       </div>
+      
       <div class="infor ">
         <div class="mx-4 row">
           <div class="box_infor one col-sm-12 col-md-3 col-lg-2">
